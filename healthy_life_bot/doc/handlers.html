@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+
+  <head>
+    
+    <title>handlers</title>
+    <meta name="generator" content="pydoctor 24.11.1"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+    
+</head>
+
+  <body>
+
+    
+
+    <nav class="navbar navbar-default mainnavbar">
+      
+  
+  <div class="container-fluid">
+
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+        <span class="navbar-brand">
+          database/Bot/states/handlers/utils <a href="index.html">API Documentation</a>
+        </span>
+
+        <a href="moduleIndex.html">
+          Modules
+        </a>
+
+        <a href="classIndex.html">
+          Classes
+        </a>
+
+        <a href="nameIndex.html">
+          Names
+        </a>
+
+        <div id="search-box-container">
+          <div class="input-group">
+            <input id="search-box" type="search" name="search-query" placeholder="Search..." aria-label="Search" minlength="2" class="form-control" autocomplete="off" />
+            
+            <span class="input-group-btn">
+              <a style="display: none;" class="btn btn-default" id="search-clear-button" title="Clear" onclick="clearSearch()"><img src="fonts/x-circle.svg" alt="Clear" /></a>
+              <a class="btn btn-default" id="apidocs-help-button" title="Help" href="apidocs-help.html"><img src="fonts/info.svg" alt="Help" /></a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="search-results-container" style="display: none;">
+        
+        <div id="search-buttons">
+          <span class="label label-default" id="search-docstrings-button">
+          <label class="checkbox-inline">
+            <input type="checkbox" id="toggle-search-in-docstrings-checkbox" value="false" onclick="toggleSearchInDocstrings()">
+              search in docstrings
+            </input>
+          </label>
+          </span>
+          
+        </div>
+        
+        <noscript>
+            <h1>Cannot search: JavaScript is not supported/enabled in your browser.</h1>
+        </noscript>
+
+        <div id="search-status"> </div>
+
+        <div class="warning" id="search-warn-box" style="display: none;">
+          <p class="rst-last"><span id="search-warn"></span></p>
+        </div>
+
+        <table id="search-results">
+          <!-- Filled dynamically by JS -->
+        </table>
+        
+        <div style="margin-top: 10px;">
+          <p>For more information on the search, visit the <a href="apidocs-help.html#rst-search">help page</a>.</p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</nav>
+    
+    <div class="container-fluid">
+
+      <!-- Side navigation -->
+      <div class="sidebarcontainer" style="display: none;">
+        
+        <div class="sidebar"><nav class="sidebar">
+  
+
+  <div>
+
+      <div class="thingTitle">
+        <span>Module</span>
+        <code class="thisobject"><a href="handlers.html" class="internal-link" title="This module">handlers</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        
+        
+
+        <div class="childrenKindTitle">Functions</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#cmd_start" class="internal-link" title="handlers.cmd_start">cmd<wbr></wbr>_start</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#process_age" class="internal-link" title="handlers.process_age">process<wbr></wbr>_age</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#process_cansel_reset" class="internal-link" title="handlers.process_cansel_reset">process<wbr></wbr>_cansel<wbr></wbr>_reset</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#process_diet_day" class="internal-link" title="handlers.process_diet_day">process<wbr></wbr>_diet<wbr></wbr>_day</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#process_exercise_choice" class="internal-link" title="handlers.process_exercise_choice">process<wbr></wbr>_exercise<wbr></wbr>_choice</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#process_height" class="internal-link" title="handlers.process_height">process<wbr></wbr>_height</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#process_reset_confirmation" class="internal-link" title="handlers.process_reset_confirmation">process<wbr></wbr>_reset<wbr></wbr>_confirmation</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#process_weight" class="internal-link" title="handlers.process_weight">process<wbr></wbr>_weight</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#process_weight_update" class="internal-link" title="handlers.process_weight_update">process<wbr></wbr>_weight<wbr></wbr>_update</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#reset_progress" class="internal-link" title="handlers.reset_progress">reset<wbr></wbr>_progress</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#show_diet_menu" class="internal-link" title="handlers.show_diet_menu">show<wbr></wbr>_diet<wbr></wbr>_menu</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#show_exercises" class="internal-link" title="handlers.show_exercises">show<wbr></wbr>_exercises</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#show_help" class="internal-link" title="handlers.show_help">show<wbr></wbr>_help</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#show_motivation" class="internal-link" title="handlers.show_motivation">show<wbr></wbr>_motivation</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#show_progress" class="internal-link" title="handlers.show_progress">show<wbr></wbr>_progress</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#show_water_norm" class="internal-link" title="handlers.show_water_norm">show<wbr></wbr>_water<wbr></wbr>_norm</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#unknown_command" class="internal-link" title="handlers.unknown_command">unknown<wbr></wbr>_command</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#update_weight_cmd" class="internal-link" title="handlers.update_weight_cmd">update<wbr></wbr>_weight<wbr></wbr>_cmd</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+
+        <div class="childrenKindTitle">Variables</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#db" class="internal-link" title="handlers.db">db</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#router" class="internal-link" title="handlers.router">router</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+        
+      </div>
+  </div>
+
+</nav>
+        </div>
+        <div id="collapseSideBar">
+          <a class="btn btn-link" onclick="toggleSideBarCollapse()" title="Toggle Sidebar Collapse">
+          </a>
+        </div> 
+        <script src="sidebartoggle.js" type="text/javascript"></script>
+       
+      </div>
+
+      <div id="main" class="">
+        
+
+        
+
+        <div class="page-header">
+          <h1 class="module"><code><code><a href="handlers.html" class="internal-link">handlers</a></code></code></h1>
+          <div id="showPrivate">
+            <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+          </div>
+        </div>
+
+        <div class="categoryHeader">
+          module documentation
+        </div>
+
+        <div class="extrasDocstring">
+          
+          <p></p>
+        </div>
+
+        <div class="moduleDocstring">
+          <div><p class="undocumented">Undocumented</p></div>
+        </div>
+
+        <div id="splitTables">
+          <table class="children sortable" id="id4">
+  
+  
+  <tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#cmd_start" class="internal-link" title="handlers.cmd_start">cmd<wbr></wbr>_start</a></code></td>
+    <td>Обработчик команды /start.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#process_age" class="internal-link" title="handlers.process_age">process<wbr></wbr>_age</a></code></td>
+    <td>Обработка ввода возраста пользователя.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#process_cansel_reset" class="internal-link" title="handlers.process_cansel_reset">process<wbr></wbr>_cansel<wbr></wbr>_reset</a></code></td>
+    <td>Отмена сброса данных.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#process_diet_day" class="internal-link" title="handlers.process_diet_day">process<wbr></wbr>_diet<wbr></wbr>_day</a></code></td>
+    <td>Обработка выбора дня недели для отображения плана питания.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#process_exercise_choice" class="internal-link" title="handlers.process_exercise_choice">process<wbr></wbr>_exercise<wbr></wbr>_choice</a></code></td>
+    <td>Обработка выбора уровня сложности упражнений.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#process_height" class="internal-link" title="handlers.process_height">process<wbr></wbr>_height</a></code></td>
+    <td>Обработка ввода роста пользователя.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#process_reset_confirmation" class="internal-link" title="handlers.process_reset_confirmation">process<wbr></wbr>_reset<wbr></wbr>_confirmation</a></code></td>
+    <td>Обработка подтверждения сброса данных пользователя.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#process_weight" class="internal-link" title="handlers.process_weight">process<wbr></wbr>_weight</a></code></td>
+    <td>Обработка ввода веса пользователя.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#process_weight_update" class="internal-link" title="handlers.process_weight_update">process<wbr></wbr>_weight<wbr></wbr>_update</a></code></td>
+    <td>Обработка обновления веса пользователя.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#reset_progress" class="internal-link" title="handlers.reset_progress">reset<wbr></wbr>_progress</a></code></td>
+    <td>Запрос подтверждения сброса прогресса пользователя.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#show_diet_menu" class="internal-link" title="handlers.show_diet_menu">show<wbr></wbr>_diet<wbr></wbr>_menu</a></code></td>
+    <td>Отображение меню выбора дня для просмотра плана питания.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#show_exercises" class="internal-link" title="handlers.show_exercises">show<wbr></wbr>_exercises</a></code></td>
+    <td>Отображение меню выбора уровня сложности упражнений.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#show_help" class="internal-link" title="handlers.show_help">show<wbr></wbr>_help</a></code></td>
+    <td>Отображение справочной информации о командах бота.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#show_motivation" class="internal-link" title="handlers.show_motivation">show<wbr></wbr>_motivation</a></code></td>
+    <td>Показ мотивационной фразы.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#show_progress" class="internal-link" title="handlers.show_progress">show<wbr></wbr>_progress</a></code></td>
+    <td>Отображение статистики прогресса пользователя.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#show_water_norm" class="internal-link" title="handlers.show_water_norm">show<wbr></wbr>_water<wbr></wbr>_norm</a></code></td>
+    <td>Расчет и отображение рекомендуемой нормы воды.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#unknown_command" class="internal-link" title="handlers.unknown_command">unknown<wbr></wbr>_command</a></code></td>
+    <td>Обработка неизвестных команд.</td>
+  </tr><tr class="function">
+    
+    <td>Async Function</td>
+    <td><code><a href="#update_weight_cmd" class="internal-link" title="handlers.update_weight_cmd">update<wbr></wbr>_weight<wbr></wbr>_cmd</a></code></td>
+    <td>Начало процесса обновления веса.</td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#db" class="internal-link" title="handlers.db">db</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#router" class="internal-link" title="handlers.router">router</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr>
+</table>
+          
+
+            
+        </div>
+
+        <div id="childList">
+          <div class="basefunction">
+  
+  
+  <a name="handlers.cmd_start">
+    
+  </a>
+  <a name="cmd_start">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr>Command(<wbr></wbr><span class="rst-variable-quote">'</span><span class="rst-variable-string">start</span><span class="rst-variable-quote">'</span>))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">cmd_start</span><span class="function-signature">(message: <code>Message</code>, state: <code>FSMContext</code>)</span>:
+    
+    <a class="headerLink" href="#cmd_start" title="handlers.cmd_start">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Обработчик команды /start.
+
+Начинает взаимодействие с пользователем: если пользователь новый - запускает
+процесс регистрации, если существующий - показывает главное меню.
+
+Args:
+    message: Входящее сообщение от пользователя
+    state: Состояние FSM для хранения данных
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.process_age">
+    
+  </a>
+  <a name="process_age">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr><a href="states.UserState.html#waiting_for_age" class="internal-link" title="states.UserState.waiting_for_age">UserState.waiting_for_age</a>)<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">process_age</span><span class="function-signature">(message: <code>Message</code>, state: <code>FSMContext</code>)</span>:
+    
+    <a class="headerLink" href="#process_age" title="handlers.process_age">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Обработка ввода возраста пользователя.
+
+Проверяет корректность введенного возраста и сохраняет его в состоянии.
+
+Args:
+    message: Входящее сообщение с возрастом
+    state: Состояние FSM для сохранения данных
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.process_cansel_reset">
+    
+  </a>
+  <a name="process_cansel_reset">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.callback_query(<wbr></wbr>(F.data == 'cancel_reset'))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">process_cansel_reset</span><span class="function-signature">(message: <code>Message</code>)</span>:
+    
+    <a class="headerLink" href="#process_cansel_reset" title="handlers.process_cansel_reset">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Отмена сброса данных.
+
+Args:
+    message : Входящее сообщение
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.process_diet_day">
+    
+  </a>
+  <a name="process_diet_day">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.callback_query(<wbr></wbr>(lambda c: c.data.startswith('diet_')))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">process_diet_day</span><span class="function-signature">(callback: <code>CallbackQuery</code>)</span>:
+    
+    <a class="headerLink" href="#process_diet_day" title="handlers.process_diet_day">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Обработка выбора дня недели для отображения плана питания.
+
+Args:
+    callback: Callback-запрос с выбранным днем недели
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.process_exercise_choice">
+    
+  </a>
+  <a name="process_exercise_choice">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.callback_query(<wbr></wbr>F.data.startswith(<wbr></wbr><span class="rst-variable-quote">'</span><span class="rst-variable-string">exercise_</span><span class="rst-variable-quote">'</span>))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">process_exercise_choice</span><span class="function-signature">(callback: <code>CallbackQuery</code>)</span>:
+    
+    <a class="headerLink" href="#process_exercise_choice" title="handlers.process_exercise_choice">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Обработка выбора уровня сложности упражнений.
+
+Args:
+    callback: Callback-запрос с выбранным уровнем
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.process_height">
+    
+  </a>
+  <a name="process_height">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr><a href="states.UserState.html#waiting_for_height" class="internal-link" title="states.UserState.waiting_for_height">UserState.waiting_for_height</a>)<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">process_height</span><span class="function-signature">(message: <code>Message</code>, state: <code>FSMContext</code>)</span>:
+    
+    <a class="headerLink" href="#process_height" title="handlers.process_height">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Обработка ввода роста пользователя.
+
+Проверяет корректность введенного роста и сохраняет его в состоянии.
+
+Args:
+    message: Входящее сообщение с ростом
+    state: Состояние FSM для сохранения данных
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.process_reset_confirmation">
+    
+  </a>
+  <a name="process_reset_confirmation">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.callback_query(<wbr></wbr>(F.data == 'confirm_reset'))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">process_reset_confirmation</span><span class="function-signature">(callback: <code>CallbackQuery</code>)</span>:
+    
+    <a class="headerLink" href="#process_reset_confirmation" title="handlers.process_reset_confirmation">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Обработка подтверждения сброса данных пользователя.
+
+Args:
+    callback: Callback-запрос с подтверждением
+
+Returns:
+    None
+
+Raises:
+    Exception: При ошибке удаления данных из БД</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.process_weight">
+    
+  </a>
+  <a name="process_weight">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr><a href="states.UserState.html#waiting_for_weight" class="internal-link" title="states.UserState.waiting_for_weight">UserState.waiting_for_weight</a>)<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">process_weight</span><span class="function-signature">(message: <code>Message</code>, state: <code>FSMContext</code>)</span>:
+    
+    <a class="headerLink" href="#process_weight" title="handlers.process_weight">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Обработка ввода веса пользователя.
+
+Проверяет корректность введенного веса, сохраняет все данные в БД
+и завершает регистрацию.
+
+Args:
+    message: Входящее сообщение с весом
+    state: Состояние FSM для сохранения данных
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.process_weight_update">
+    
+  </a>
+  <a name="process_weight_update">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr><a href="states.UserState.html#updating_weight" class="internal-link" title="states.UserState.updating_weight">UserState.updating_weight</a>)<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">process_weight_update</span><span class="function-signature">(message: <code>Message</code>, state: <code>FSMContext</code>)</span>:
+    
+    <a class="headerLink" href="#process_weight_update" title="handlers.process_weight_update">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Обработка обновления веса пользователя.
+
+Проверяет корректность введенного веса и сохраняет в БД.
+
+Args:
+    message: Входящее сообщение с новым весом
+    state: Состояние FSM для сохранения данных
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.reset_progress">
+    
+  </a>
+  <a name="reset_progress">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr>(F.text == '⚙️ Сброс'))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">reset_progress</span><span class="function-signature">(message: <code>Message</code>)</span>:
+    
+    <a class="headerLink" href="#reset_progress" title="handlers.reset_progress">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Запрос подтверждения сброса прогресса пользователя.
+
+Args:
+    message: Входящее сообщение
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.show_diet_menu">
+    
+  </a>
+  <a name="show_diet_menu">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr>(F.text == '🥗 Питание'))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">show_diet_menu</span><span class="function-signature">(message: <code>Message</code>)</span>:
+    
+    <a class="headerLink" href="#show_diet_menu" title="handlers.show_diet_menu">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Отображение меню выбора дня для просмотра плана питания.
+
+Args:
+    message: Входящее сообщение
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.show_exercises">
+    
+  </a>
+  <a name="show_exercises">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr>(F.text == '🏋️ Упражнения'))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">show_exercises</span><span class="function-signature">(message: <code>Message</code>)</span>:
+    
+    <a class="headerLink" href="#show_exercises" title="handlers.show_exercises">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Отображение меню выбора уровня сложности упражнений.
+
+Args:
+    message: Входящее сообщение
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.show_help">
+    
+  </a>
+  <a name="show_help">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr>(F.text == '❓ Помощь'))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">show_help</span><span class="function-signature">(message: <code>Message</code>)</span>:
+    
+    <a class="headerLink" href="#show_help" title="handlers.show_help">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Отображение справочной информации о командах бота.
+
+Args:
+    message: Входящее сообщение
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.show_motivation">
+    
+  </a>
+  <a name="show_motivation">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr>(F.text == '💪 Мотивация'))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">show_motivation</span><span class="function-signature">(message: <code>Message</code>)</span>:
+    
+    <a class="headerLink" href="#show_motivation" title="handlers.show_motivation">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Показ мотивационной фразы.
+
+Args:
+    message: Входящее сообщение
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.show_progress">
+    
+  </a>
+  <a name="show_progress">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr>(F.text == '📊 Мой прогресс'))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">show_progress</span><span class="function-signature">(message: <code>Message</code>)</span>:
+    
+    <a class="headerLink" href="#show_progress" title="handlers.show_progress">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Отображение статистики прогресса пользователя.
+
+Показывает текущие показатели, изменение веса и график прогресса.
+
+Args:
+    message: Входящее сообщение
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.show_water_norm">
+    
+  </a>
+  <a name="show_water_norm">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr>(F.text == '💧 Норма воды'))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">show_water_norm</span><span class="function-signature">(message: <code>Message</code>)</span>:
+    
+    <a class="headerLink" href="#show_water_norm" title="handlers.show_water_norm">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Расчет и отображение рекомендуемой нормы воды.
+
+Args:
+    message: Входящее сообщение
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.unknown_command">
+    
+  </a>
+  <a name="unknown_command">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message()<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">unknown_command</span><span class="function-signature">(message: <code>Message</code>)</span>:
+    
+    <a class="headerLink" href="#unknown_command" title="handlers.unknown_command">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Обработка неизвестных команд.
+
+Args:
+    message: Входящее сообщение
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="handlers.update_weight_cmd">
+    
+  </a>
+  <a name="update_weight_cmd">
+    
+  </a>
+  <div class="functionHeader">
+    
+    @router.message(<wbr></wbr>(F.text == '⚖️ Обновить вес'))<br />
+    <span class="py-keyword">async def</span> <span class="py-defname">update_weight_cmd</span><span class="function-signature">(message: <code>Message</code>, state: <code>FSMContext</code>)</span>:
+    
+    <a class="headerLink" href="#update_weight_cmd" title="handlers.update_weight_cmd">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="pre">Начало процесса обновления веса.
+
+Args:
+    message: Входящее сообщение
+    state: Состояние FSM для сохранения данных
+
+Returns:
+    None</p></div>
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="handlers.db">
+    
+  </a>
+  <a name="db">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">db</span> =
+    
+    <a class="headerLink" href="#db" title="handlers.db">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="handlers.router">
+    
+  </a>
+  <a name="router">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">router</span> =
+    
+    <a class="headerLink" href="#router" title="handlers.router">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div>
+        </div>
+      
+      </div>
+    </div>
+
+    <footer class="navbar navbar-default">
+
+  
+  <div class="container-fluid">
+    <a href="index.html">API Documentation</a> for database/Bot/states/handlers/utils,
+  generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+    24.11.1 at 2024-12-13 23:13:39.
+  </div>
+
+  <!-- Search related scripts needs to be loaded at the end of HTML 
+    parsing not to introduce overhead and display HTML data asap -->
+  <script src="ajax.js" type="text/javascript"></script>
+  <script src="searchlib.js" type="text/javascript"></script>
+  <script src="search.js" type="text/javascript"></script>
+
+</footer>
+  
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>
